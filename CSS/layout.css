@@ -1,0 +1,389 @@
+/* Website Created by Chris Herriman Jr */
+@font-face {
+    font-family: "sans";
+    src: url("../Comic\ Sans\ MS.woff");
+}
+
+#header{
+    margin-top: 0;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(70, 70, 70);
+    background-color: rgb(177, 177, 177);
+    padding-left: 42.5%;
+    padding-right: 35.25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    top: 0;
+}
+
+#logo{
+    height: 40px;
+    margin-top: -2%;
+    margin-bottom: 0;
+}
+
+header h3{
+    font-size: 12px;
+    text-align: center;
+    margin-right: 42%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#about{
+    margin-right: 1%;
+}
+
+content h2{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight:100;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: 'sans', Arial, Helvetica, sans-serif;
+}
+
+content img{
+    width: 300px;
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    background-color: rgb(177, 177, 177);
+    border-width: 7px;
+}
+
+#firstCategory{
+    margin-left: 28%;
+}
+
+#firstColumn{
+    margin-left: 18.5%;
+}
+
+table{
+    margin-left:14%;
+}
+
+#aboutText{
+    text-align: center;
+    border-color: rgb(70, 70, 70);
+    border-width: 7px;
+    border-style: solid;
+    background-color: rgb(177, 177, 177);
+    margin-left: 31%;
+    margin-right: 31%;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+ul{
+    list-style: none;
+}
+
+#name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(177, 177, 177);
+    border-radius: 20%;
+    border-width: 7px;
+    border-color: rgb(70, 70, 70);
+    border-style: solid;
+    margin-left: 30px;
+}
+
+#socials{
+    margin-left: 29%;
+    margin-top: -5%;
+}
+
+#insta, #facebook, #pinterest{
+    border-color: rgb(177,177,177);
+    border-width: 10px;
+    border-style: solid;
+}
+
+#index{
+    float: left;
+    margin-left: -150%;
+}
+
+#product{
+    float:left;
+    margin-left: -110%;
+}
+
+#photos{
+    float:left;
+    margin-left: -55%;
+}
+
+#photoTable img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20%;
+    border-width: 7px;
+    border-color: rgb(70, 70, 70);
+    border-style: solid;
+    transition: transform 0.3s ease;
+}
+
+#photoTable img:hover{
+    transform: scale(1.15);
+}
+
+#pp-view-cart{
+    float: right;
+    margin-right: 5%;
+}
+
+#promo{
+    margin-top: -30%;
+    border-radius: 12%;
+    border: rgb(70,70,70) solid 7px;
+    margin-right: 10%;
+}
+
+#profile{
+    border-radius: 360%;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(70, 70, 70);
+    width: 250px;
+    margin-left: 30px;
+}
+
+#paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+    border: rgb(70,70,70) solid 7px;
+    background-color: rgb(177,177,177);
+    margin-right: 53%;
+    margin-left: 10%;
+    padding-left: 2%;
+    margin-top: 5%;
+    border-radius: 12%;
+}
+
+#single{
+    margin-left: 39%;
+}
+
+
+@media screen and (max-width: 1450px)
+{
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-right: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px)
+{
+    table{margin-left:10%;}
+    #promo{margin-top: -35%}
+}
+
+@media screen and (max-width: 1350px)
+{
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-right: 47%;
+    }
+}
+
+@media screen and (max-width: 1300px)
+{
+    table{margin-left:8%;}
+    header h3{margin-right: 35%;}
+    #aboutText{margin-right:28%;}
+}
+
+@media screen and (max-width: 1250px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1200px)
+{
+    table{margin-left:6%;}
+    header h3{margin-right: 32%;}
+    #aboutText{margin-right:25%;}
+}
+
+@media screen and (max-width: 1190px){
+    #firstColumn{margin-left: 8%;}
+}
+
+@media screen and (max-width: 1150px){
+    header h3{font-size: 10px;}
+    #firstCategory{margin-left: 20%;}
+    #photoTable img{width: 150px;
+                height: 225px;}
+    header h2{font-size: 20px;}
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #promo{margin-left: 0;
+           margin-top: 0;
+           margin-bottom: 0;
+           margin-right: 25%;}
+}
+
+@media screen and (max-width: 1100px){
+    #name{font-size: 15px;}
+    #profile{width: 250px;}
+    table{margin-left: 0}
+}
+
+@media screen and (max-width: 1075px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-right: 20%;
+    }
+
+    #firstColumn{margin-left: 0;}
+}
+
+@media screen and (max-width: 975px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-right: 15%;
+    }
+    #firstColumn{margin-left: 20%;}
+    #thirdColumn{margin-left: 35%;}
+}
+
+@media screen and (max-width: 950px){
+    #profile{width: 200px;}
+    #photoTable img{width: 125px;
+                    height: 187.5px;}
+    header h2{font-size: 15px;}
+}
+
+@media screen and (max-width: 900px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-left: 20%;
+    }
+    #single{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #profile{width: 150px;}
+    #aboutText{margin-left: 25%;}
+    #firstColumn{margin-left: 7%;}
+    #firstCategory{margin-left: 7%;}
+    #photoTable img{width: 100px;
+                    height: 150px;}
+}
+
+@media screen and (max-width: 760px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #promo{margin-right: 10%;}
+}
+
+@media screen and (max-width: 750px){
+    header h2{font-size: 13px;}
+    table{margin-left: -3%;}
+    #profile{width:100px}
+}
+
+@media screen and (max-width: 700px){
+    #aboutText{margin-right: 2%; margin-left: 2%;}
+    header h3{margin-right: -40%;}
+    #firstColumn, #secondColumn, #thirdColumn{margin-left: 30%;}
+    #firstCategory, #secondCategory{margin-left: 30%;}
+}
+
+@media screen and (max-width: 660px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #promo{margin-right: 5%;}
+}
+
+@media screen and (max-width: 650px){
+    #index{margin-left: -200%;
+           margin-top: 8%;}
+    #product{margin-left: -150%;
+             margin-top: 8%;}
+    #photos{margin-left: -80%;
+            margin-top: 8%;}
+}
+
+@media screen and (max-width: 590px){
+    #paypal-container-JGUALSLXRDZMY, #paypal-container-763ZURBTX6KAC, #paypal-container-4HLHES6NAGDRE, #paypal-container-BA874U2L942U6{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+@media screen and (max-width: 524px){
+    header h2{font-size:12px;}
+}
+
+@media screen and (max-width: 500px){
+    #index{margin-left: -75%;
+           margin-top: -2%;}
+    #product{margin-left: -75%;
+             margin-top: 8%;}
+    #photos{margin-left: -75%;
+            margin-top: 18%;}
+    #single{
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #photoTable img{width: 75px;
+                    height: 112.5px;}
+}
+
+@media screen and (max-width: 550px){
+    table{margin-left: -6%;}
+    #profile{width:75px;}
+}
+
+
+@media screen and (max-width: 500px){
+    #name{font-size: 10px;}
+    #header{padding-left: 28%;}
+    header h3{margin-right: -20%;}
+    #firstColumn, #secondColumn, #thirdColumn{margin-left: 15%;}
+    #firstCategory, #secondCategory{margin-left: 15%;}
+}
+
+@media screen and (max-width: 470px){
+    table{margin-left: -20%;}
+    #profile{width:50px;}
+    #promo{margin-right: 0%;}
+}
+
+@media screen and (max-width: 400px){
+    #firstColumn, #secondColumn, #thirdColumn{margin-left: 8%;}
+    #name{border-width: 4px;}
+    #photoTable img{width: 50px;
+                    height: 75px;}
+    #single{margin-left: 0;}
+}
